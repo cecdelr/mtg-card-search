@@ -1,0 +1,25 @@
+<% include partials/header %>
+
+<div class="container" id="results">
+	<h1>Results for "<%= query %>":</h1>
+	<button><a href="/">Search Again</a></button>
+
+
+	<div class="row">
+		<% data["cards"].forEach(function(card){ %>
+			<div class="col-sm-12 col-md-4">
+				<div class="thumbnail">
+					<img src=" <%= card['imageUrl'] %> " alt=" <%= card['name'] %> " />
+					<div class="cardInfo">
+						<h3><%= card['name'] %></h3>
+						<hr>
+						<p><%= card['type'] %></p>
+						<p><%= card['text'] %></p>
+					</div>
+				</div>
+			</div>
+		<% }); %>
+	</div>
+</div>
+
+<% include partials/footer %>

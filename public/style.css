@@ -1,0 +1,67 @@
+body{
+	background: #4B79A1; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #4B79A1 , #283E51); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #4B79A1 , #283E51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	min-height: 100%;
+    position:relative;
+}
+
+h1, h2{
+	color: white;
+}
+
+h1{
+	margin: 0;
+}
+
+#homeSearch{
+	width: 500px;
+	margin: 15% auto;
+	background: #2c3e50;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 20px;
+}
+
+#results{
+	margin-top: 20px;
+}
+
+.thumbnail img{
+	height: 150px;
+	max-height: 300px;
+	float: left;
+	padding:10% 0% 0% 0%;
+}
+
+.thumbnail{
+	height: 200px;
+	overflow: auto;
+}
+
+.cardInfo{
+	padding-left: 10px;
+	height: 100%;
+	overflow: auto;
+}
+
+button{
+	margin-bottom: 10px;
+}
+
+hr{
+	height: 1px;
+	border: 0;
+	margin: 0;
+	background-image: linear-gradient(to right, rgba(100,100,100,1), rgba(0,0,0,0));
+}
+
+footer{
+    position:fixed;
+    height: 20px;
+    background-color: #efefef;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+    text-align: center;
+}
