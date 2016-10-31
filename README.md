@@ -13,7 +13,7 @@
  ## Screenshots
 
  ###Search Page
- ![Search Page](https://raw.githubusercontent.com/cecdelr/mtg-card-search/master/screenshots/img1.png)
+ ![Search Page](https://raw.githubusercontent.com/cecdelr/mtg-card-search/master/screenshots/img2.png)
 
   ###Results Page (Works With Incomplete Search Queries)
  ![Results Page](https://raw.githubusercontent.com/cecdelr/mtg-card-search/master/screenshots/img1.png)
